@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}body{
+    font-family: 'Poppins', sans-serif;
+}img{
+    width: 100%;
+    height: 100%;
+}a:visited{
+    color: black;
+}.container{
+    width: 1080px;
+    margin: 0 auto;
+}.flexible-container{
+    display: flex;
+    align-items: center;
+}/* Here ends all the basic style */
+.nav-items{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    height: 55px;
+}.logo a{
+    text-decoration: none;
+}.logo h1{
+    font-size: 1.5rem;
+}.menu-bar{
+    justify-content: flex-end;
+    width: 70%;
+}.menu-bar ul{
+    display: flex;
+    list-style: none;
+}.menu-bar ul li a{
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 5px;
+}.sing-login{
+    width: 10%;
+    justify-content: flex-end;
+}.sing-login span {
+    padding: 5px 10px;
+} /* close all the nav style */
+.influence-items{
+    margin: 35px 0px;
+    margin-top: 25px;
+    padding: 10px;
+    justify-content: space-between;
+}.dec-box{
+    width: 54%;
+}.dec-box h1 {
+    font-size: 50px;
+    line-height: 70px;
+}.dec-box p{
+    margin-bottom: 10px;
+    line-height: 23px;
+}
+.dec-box button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 29px;
+    background-color: crimson;
+}.dec-box button a{
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+}.dec-box button a i{
+    padding: 4px;
+    font-size: 19px;
+}/* Close the influence style */
+.sponsor-items {
+    margin-bottom: 55px;
+    height: 80px;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}/* Close sposnsor are style */
+section#our-collection {
+    margin-bottom: 30px;
+}section#our-collection h1 {
+    padding: 10px;
+    text-align: center;
+}.collection-items {
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}.product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    margin-bottom: 35px;
+}.img-box {
+    height: 250px;
+    padding: 10px;
+}.service-box-info {
+    padding: 10px;
+}p.dollar {
+    font-size: 26px;
+    padding-top: 5px;
+    color: red;
+}.checked{
+    color: orange;
+}.see-more {
+    padding: 0px 48px;
+    display: flex;
+    justify-content: flex-end;
+}.see-more a {
+    text-decoration: none;
+    color: #f31111;
+    font-weight: bold;
+}/* close services area */
+.f-item {
+    margin: 45px 0px;
+    padding: 10px;
+    justify-content: space-between;
+}.f-img {
+    width: 35%;
+}.f-dec {
+    width: 58%;
+}.f-dec h1 {
+    padding-bottom: 15px;
+    font-size: 28px;
+}.f-dec button {
+    margin-top: 10px;
+    padding: 10px;
+    border: navajowhite;
+    background-color: crimson;
+}.f-dec button > a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+}/* footer css start */
+footer#footer-area {
+    background-color: #141010;
+}.footer-items {
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+}.social-menu {
+    justify-content: center;
+}.social-menu ul{
+    display: flex;
+    list-style: none;
+}.social-menu ul li a {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 5px;
+    color: white;
+    font-size: 31px;
+}/* start a new section login form css */
+section#reach-me{
+    background-image: linear-gradient(rgba(219, 201, 201, 0.842), rgb(60, 194, 154));
+}
+.form-area {
+    width: 500px;
+}.form-items {
+    justify-content: space-between;
+    padding: 10px;
+   }form.form-fill {
+    display: flex;
+    flex-direction: column;
+}form.form-fill > input {
+    padding: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}button#sub-mit {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;    
+    background-color: #505354;
+}button#sub-mit a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}.form-area h1 {
+    margin-bottom: 20px;
+}.info-box {
+    width: 500px;
+}.info-box h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}.info-box p {
+    padding: 10px;
+}
